@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0DD5CBEF1FF5A14F00178082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CBEE1FF5A14F00178082 /* AppDelegate.swift */; };
-		0DD5CBF11FF5A14F00178082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CBF01FF5A14F00178082 /* ViewController.swift */; };
 		0DD5CBF41FF5A14F00178082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5CBF21FF5A14F00178082 /* Main.storyboard */; };
 		0DD5CBF61FF5A14F00178082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5CBF51FF5A14F00178082 /* Assets.xcassets */; };
 		0DD5CBF91FF5A14F00178082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD5CBF71FF5A14F00178082 /* LaunchScreen.storyboard */; };
+		0DD5CC011FF5A66000178082 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC001FF5A66000178082 /* CustomTableViewController.swift */; };
+		0DD5CC061FF5B54500178082 /* IconCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC051FF5B54500178082 /* IconCellCollectionViewCell.swift */; };
+		0DD5CC081FF5B8E800178082 /* HeaderViewCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC071FF5B8E800178082 /* HeaderViewCollectionReusableView.swift */; };
+		0DD5CC0A1FF5BBE700178082 /* IconsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC091FF5BBE700178082 /* IconsCollectionViewController.swift */; };
+		0DD5CC0D1FF5C80200178082 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC0C1FF5C80200178082 /* TaskManager.swift */; };
+		0DD5CC0F1FF5D0B800178082 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD5CC0E1FF5D0B800178082 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0DD5CBEB1FF5A14F00178082 /* Recordatorios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recordatorios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD5CBEE1FF5A14F00178082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DD5CBF01FF5A14F00178082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DD5CBF31FF5A14F00178082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD5CBF51FF5A14F00178082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD5CBF81FF5A14F00178082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD5CBFA1FF5A14F00178082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD5CC001FF5A66000178082 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		0DD5CC051FF5B54500178082 /* IconCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		0DD5CC071FF5B8E800178082 /* HeaderViewCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewCollectionReusableView.swift; sourceTree = "<group>"; };
+		0DD5CC091FF5BBE700178082 /* IconsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsCollectionViewController.swift; sourceTree = "<group>"; };
+		0DD5CC0C1FF5C80200178082 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		0DD5CC0E1FF5D0B800178082 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,35 @@
 		0DD5CBED1FF5A14F00178082 /* Recordatorios */ = {
 			isa = PBXGroup;
 			children = (
+				0DD5CC0B1FF5C7F400178082 /* models */,
+				0DD5CC021FF5B4F200178082 /* Controllers */,
 				0DD5CBEE1FF5A14F00178082 /* AppDelegate.swift */,
-				0DD5CBF01FF5A14F00178082 /* ViewController.swift */,
 				0DD5CBF21FF5A14F00178082 /* Main.storyboard */,
 				0DD5CBF51FF5A14F00178082 /* Assets.xcassets */,
 				0DD5CBF71FF5A14F00178082 /* LaunchScreen.storyboard */,
 				0DD5CBFA1FF5A14F00178082 /* Info.plist */,
+				0DD5CC001FF5A66000178082 /* CustomTableViewController.swift */,
+				0DD5CC091FF5BBE700178082 /* IconsCollectionViewController.swift */,
 			);
 			path = Recordatorios;
+			sourceTree = "<group>";
+		};
+		0DD5CC021FF5B4F200178082 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD5CC0E1FF5D0B800178082 /* TaskCell.swift */,
+				0DD5CC051FF5B54500178082 /* IconCellCollectionViewCell.swift */,
+				0DD5CC071FF5B8E800178082 /* HeaderViewCollectionReusableView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0DD5CC0B1FF5C7F400178082 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0DD5CC0C1FF5C80200178082 /* TaskManager.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD5CBF11FF5A14F00178082 /* ViewController.swift in Sources */,
+				0DD5CC0F1FF5D0B800178082 /* TaskCell.swift in Sources */,
+				0DD5CC011FF5A66000178082 /* CustomTableViewController.swift in Sources */,
+				0DD5CC0A1FF5BBE700178082 /* IconsCollectionViewController.swift in Sources */,
 				0DD5CBEF1FF5A14F00178082 /* AppDelegate.swift in Sources */,
+				0DD5CC081FF5B8E800178082 /* HeaderViewCollectionReusableView.swift in Sources */,
+				0DD5CC061FF5B54500178082 /* IconCellCollectionViewCell.swift in Sources */,
+				0DD5CC0D1FF5C80200178082 /* TaskManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +314,7 @@
 				DEVELOPMENT_TEAM = A5HZDPVDZE;
 				INFOPLIST_FILE = Recordatorios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.Recordatorios;
+				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.Acordes1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +329,7 @@
 				DEVELOPMENT_TEAM = A5HZDPVDZE;
 				INFOPLIST_FILE = Recordatorios/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.Recordatorios;
+				PRODUCT_BUNDLE_IDENTIFIER = Acordes1.net.juanfrancisco.blog.Acordes1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
